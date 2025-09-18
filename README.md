@@ -112,7 +112,7 @@ Due to the nature of dense forest and partial visibility, this count is an appro
 
 I count approximately **101** trees in this image.
 
-I find it easy to believe this response because I am familiar with the environment, but it is difficult to verify based on the image I provided, so I tried witih a second image:
+I find it easy to believe this response because I am familiar with the environment, but it is difficult to verify based on the image I provided, so I tried with a second image:
 llm -m gemini-2.5-flash "How many humans, tables and chairs are in this image?" -a 2021FOI.jpg
 The response from LLM said there are 4 humans, 6 tables and seven chairs. That was incorrect. There are 4 humans, 4 chairs and 3 tables.
 I decided to break down the question into three, asking for the number of humans first, then chairs then tables. The response this time was accurate and even detailed in one instance: 
@@ -132,7 +132,9 @@ llm -m whisper-large-v3-turbo -a YOUR_FILE
 
 How did the LLM do compared to the original transcript?
 
-PUT YOUR EVALUATION HERE. I tried to run the prompt on the terminal, but I kept getting this same response: Error: 'Unknown model: whisper-large-v3-turbo'
+PUT YOUR EVALUATION HERE. One significant difference between the original transcript and the one by llm is the exclusion of most filler words, which I think makes the transcript cleaner, but can also be risky because the tool is expressing too much free will.
+Both transcripts had different names for the park. While the original transcript said Edisto State Park, the LLM said Edge Door State Park. Honestly, I thought I heard Edge Door State Park too, but when I checked online, it was Edisto State Park. One other noticeable thing is the use of punctuation marks in the two transcripts. The original transcript made better use of punctuation marks than the LLM.
+Still, I think that the LLM's version is much neater than most transcripts I have ever come across.
 
 ### How You Could Use AI
 
@@ -145,7 +147,7 @@ Create a database
 Manage tokens
 More importantly, this form of summarization helps with identifying patterns that may not be immediately apparent and gives users a better chance at categorizing information based on patterns.
 
-Another use of AI for news archives that I would explore is image parsing. Since image pdfs are not usuallly searchable, pairing them with infromation extracted based on the same images make them much more useful as archived materials.
+Another use of AI for news archives that I would explore is image parsing. Since image pdfs are not usuallly searchable, pairing them with information extracted based on the same images make them much more useful as archived materials.
 
 
 ### Finishing Up
