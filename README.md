@@ -48,7 +48,7 @@ python -m newspaper --url=https://cnsmaryland.org/2025/08/02/in-the-deep-woods-a
 
 Read the story: https://cnsmaryland.org/2025/08/02/in-the-deep-woods-a-little-owl-teaches-big-lessons/ and then compare that to the summary. Is the summary a good description? Why or why not?
 
-PUT YOUR ANSWER HERE. I think the summary provided a good description. It contained the important parts of the story in just three paragraphs.
+PUT YOUR ANSWER HERE. I think the summary provided a good description. It contained the important parts of the story, even though wwe were working in just three paragraphs.
 
 Now it's your turn: find a story that you wrote or are very familiar with that's published online, and try the same process, altering the command and then evaluating the result.
 
@@ -57,7 +57,7 @@ Now it's your turn: find a story that you wrote or are very familiar with that's
 python -m newspaper --url=https://streetcarsuburbs.news/health-and-haircuts-college-park-resident-spreads-medical-awareness-through-barbershops/ -of=text | llm -m groq/openai/gpt-oss-120b "summarize this story in 3 paragraphs"
 ```
 
-YOUR EVALUATION HERE. Again, I find this to be an impressive summary. It compressed the salient parts of the story in just three paragraphs and gives a balanced insight.
+YOUR EVALUATION HERE. Again, I find this to be an impressive summary. It compressed the salient parts of the story in just three paragraphs and gave balanced insight.
 
 ### Restructuring Information
 
