@@ -134,7 +134,7 @@ How did the LLM do compared to the original transcript?
 
 PUT YOUR EVALUATION HERE. One significant difference between the original transcript and the one by llm is the exclusion of most filler words, which I think makes the transcript cleaner, but can also be risky because the tool is expressing too much free will.
 Both transcripts had different names for the park. While the original transcript said Edisto State Park, the LLM said Edge Door State Park. Honestly, I thought I heard Edge Door State Park too, but when I checked online, it was Edisto State Park. One other noticeable thing is the use of punctuation marks in the two transcripts. The original transcript made better use of punctuation marks than the LLM.
-Still, I think that the LLM's version is much neater than most transcripts I have ever come across.
+The original transcript did a finer job than the LLM. Still, I think that the LLM's version is much neater than most transcripts I have ever come across.
 
 ### How You Could Use AI
 
